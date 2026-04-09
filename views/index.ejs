@@ -41,7 +41,16 @@
         </form>
   </div>
 
-
+  <p class="db-status">
+    Storage: <strong><%= storageMode %></strong>
+    <% if (typeof tableRowCount === 'number') { %>
+      · Rows in <code>items</code> table: <strong><%= tableRowCount %></strong>
+      <% if (dbPingMs !== null) { %>
+        · DB ping: <strong><%= dbPingMs %> ms</strong>
+      <% } %>
+    <% } %>
+    <br>
+  </p>
 
 
 
