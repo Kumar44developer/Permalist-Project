@@ -4,7 +4,11 @@
     <h1>
       <%= listTitle %>
     </h1>
-
+ </div>
+  <div class="box">
+    <% for(let item of listItems){%>
+      <div class="item">
+        <form action="/delete" method="post" class="delete-form">
 
 
 
