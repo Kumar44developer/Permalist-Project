@@ -9,7 +9,11 @@
     <% for(let item of listItems){%>
       <div class="item">
         <form action="/delete" method="post" class="delete-form">
-
+          <button type="submit" name="deleteItemId" value="<%= item.id %>" class="icon-btn" title="Delete"
+            aria-label="Delete <%= item.title %>">
+            <img class="icon" src="/assets/icons/trash-solid.svg" alt="">
+          </button>
+        </form>
 
 
 
