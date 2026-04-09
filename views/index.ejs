@@ -24,7 +24,10 @@
           <input type="hidden" name="updatedItemId" value="<%= item.id %>">
           <input id="input<%=item.id%>" type="text" name="updatedItemTitle" value="<%= item.title %>" autocomplete="off"
             hidden="true" />
-
+          <button id="done<%=item.id%>" class="edit" type="submit" hidden title="Save"
+            aria-label="Save changes for <%= item.title %>"><img class="icon"
+              src="/assets/icons/check-solid.svg" alt=""></button>
+        </form>
 
 
 
