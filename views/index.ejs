@@ -28,7 +28,11 @@
             aria-label="Save changes for <%= item.title %>"><img class="icon"
               src="/assets/icons/check-solid.svg" alt=""></button>
         </form>
-
+        <button type="button" id="edit<%=item.id%>" class="edit" title="Edit"
+          aria-label="Edit <%= item.title %>" onclick="handler('<%=item.id%>')"><img class="icon"
+            src="/assets/icons/pencil-solid.svg" alt=""></button>
+      </div>
+      <% } %>
 
 
 
