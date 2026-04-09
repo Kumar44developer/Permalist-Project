@@ -20,7 +20,10 @@
           <%= item.title %>
         </p>
 
-
+        <form class="edit" action="/edit" method="post">
+          <input type="hidden" name="updatedItemId" value="<%= item.id %>">
+          <input id="input<%=item.id%>" type="text" name="updatedItemTitle" value="<%= item.title %>" autocomplete="off"
+            hidden="true" />
 
 
 
