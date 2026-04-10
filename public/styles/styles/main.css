@@ -16,7 +16,10 @@ main {
   flex: 1 0 auto;
 }
 
-
+h1 {
+  color: #fff;
+  padding: 10px;
+}
 
 
 
