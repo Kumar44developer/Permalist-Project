@@ -37,6 +37,13 @@ try {
   const id = ins.rows[0].id;
 
 
+  const { rows: got } = await pool.query(
+    "SELECT title FROM items WHERE id = $1",
+    [id]
+  );
+  if (got[0].title !== title) {
+    throw new Error("Read-back title mismatch");
+  }
 
 
 
