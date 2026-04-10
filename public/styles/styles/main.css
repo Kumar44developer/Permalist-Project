@@ -57,6 +57,13 @@ form.delete-form {
   margin-right: 0;
 }
 
-
+button.icon-btn {
+  padding: 8px;
+  border: none;
+  background: none;
+  cursor: pointer;
+  line-height: 0;
+  border-radius: 6px;
+}
 
 
