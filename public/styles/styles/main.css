@@ -70,3 +70,11 @@ button.icon-btn {
 button.icon-btn:hover {
   background: rgba(166, 131, 227, 0.15);
 }
+
+
+button.icon-btn:focus-visible {
+  outline: 2px solid #a683e3;
+  outline-offset: 2px;
+}
+
+
