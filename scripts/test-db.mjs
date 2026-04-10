@@ -47,6 +47,16 @@ try {
 
 
 
+  await pool.query("DELETE FROM items WHERE id = $1", [id]);
+  console.log("Insert / read / delete: OK");
+  console.log("Database check passed.");
+} catch (err) {
+  console.error("Database check failed:", err.message);
+  process.exit(1);
+} finally {
+  await pool.end();
+}
+
 
 
 
