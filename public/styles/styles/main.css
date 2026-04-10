@@ -84,4 +84,7 @@ p {
   color: #00204a;
 }
 
-
+form {
+  text-align: center;
+  margin-left: 20px;
+}
