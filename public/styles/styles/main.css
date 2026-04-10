@@ -67,3 +67,6 @@ button.icon-btn {
 }
 
 
+button.icon-btn:hover {
+  background: rgba(166, 131, 227, 0.15);
+}
