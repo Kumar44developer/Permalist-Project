@@ -29,7 +29,12 @@ try {
   );
   console.log(`Items in database (before test row): ${before[0].n}`);
 
-
+  const title = `__db_test_${Date.now()}__`;
+  const ins = await pool.query(
+    "INSERT INTO items (title) VALUES ($1) RETURNING id",
+    [title]
+  );
+  const id = ins.rows[0].id;
 
 
 
