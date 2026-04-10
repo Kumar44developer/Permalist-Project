@@ -36,6 +36,9 @@ h1 {
   text-align: center;
 }
 
+form.edit {
+  display: flex;
+}
 
 
 
