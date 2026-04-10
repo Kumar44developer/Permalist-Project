@@ -77,4 +77,11 @@ button.icon-btn:focus-visible {
   outline-offset: 2px;
 }
 
+p {
+  margin: 0;
+  padding: 20px 0;
+  font-size: 20px;
+  color: #00204a;
+}
+
 
