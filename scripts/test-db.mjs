@@ -9,7 +9,10 @@ if (!pool) {
   process.exit(1);
 }
 
-
+try {
+  const ping = Date.now();
+  await pool.query("SELECT 1 AS ok");
+  console.log(`Ping: OK (${Date.now() - ping} ms)`);
 
 
 
