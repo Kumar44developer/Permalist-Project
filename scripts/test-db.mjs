@@ -24,6 +24,10 @@ try {
   `);
 
 
+  const { rows: before } = await pool.query(
+    "SELECT COUNT(*)::int AS n FROM items"
+  );
+  console.log(`Items in database (before test row): ${before[0].n}`);
 
 
 
