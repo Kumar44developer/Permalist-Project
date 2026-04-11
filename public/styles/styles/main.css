@@ -128,6 +128,11 @@ input[type="text"]:focus {
 }
 
 
+footer {
+  flex: 0 0 auto;
+  color: white;
+  text-align: center;
+}
 
 
 
