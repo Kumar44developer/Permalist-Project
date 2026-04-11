@@ -155,6 +155,10 @@ footer {
   color: #5a3d9e;
 }
 
+.db-status-hint {
+  opacity: 0.85;
+  font-size: 12px;
+}
 
 
 
