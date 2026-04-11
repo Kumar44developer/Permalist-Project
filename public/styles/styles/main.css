@@ -134,7 +134,11 @@ footer {
   text-align: center;
 }
 
-
+.db-status {
+  max-width: 420px;
+  margin: -30px auto 40px;
+  padding: 0 16px;
+  font-size: 13px;
 
 
 
