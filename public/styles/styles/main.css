@@ -151,7 +151,9 @@ footer {
   border-radius: 4px;
 }
 
-
+.db-status a {
+  color: #5a3d9e;
+}
 
 
 
